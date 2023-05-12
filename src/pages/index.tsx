@@ -8,13 +8,15 @@ export default function Home() {
 		<>
 			<header className="p-[1.5em] ">
 				<div className="w-full">
-					<div>
-						<h1 className="font-bold text-5xl">BINARY CONVERTOR</h1>
+					<div className = "textGradient">
+						<h1 className="font-bold text-5xl mb-[0.2em]">BINARY CONVERTOR</h1>
 					</div>
 
-					<div className="text-[rgba(255, 255, 255, 0.58)]">
-						{/* <span className = 'w-20 h-2bg-white border-5 border-red-500'></span> */}
-						<p className="text-xl">More binary, less convertor</p>
+					<div>
+						<p className="text-xl flex items-center gap-[0.5em] text-white opacity-40">
+							<span className = "block w-[15%] border rounded-lg"/>
+							More binary, less convertor
+						</p>
 					</div>
 				</div>
 
@@ -34,7 +36,7 @@ export default function Home() {
 					</div>
 
 					<div className="flex align-center flex-col gap-[1em] text-center">
-						<div>
+						<div className = "numberGradient">
 							<h1 className="text-6xl font-bold">420</h1>
 						</div>
 						<p className="text-xl font-medium">4 x 10² + 2 x 10¹ + 0 x 100</p>
@@ -64,7 +66,7 @@ export default function Home() {
 					</div>
 
 					<div className="flex align-center flex-col gap-[1em] text-center">
-						<div>
+						<div className = 'numberGradient'>
 							<h1 className="text-6xl font-bold">420</h1>
 						</div>
 						<p className="text-xl font-medium">4 x 10² + 2 x 10¹ + 0 x 100</p>
@@ -90,7 +92,7 @@ export default function Home() {
 					<LinkedinLogo size={40} color="white" opacity={.8}/>
 					<GithubLogo size = {40} color="white" opacity={.8}/>
 				</div>
-			</footer>
+			</footer>ce
 		</>
 	);
 }
