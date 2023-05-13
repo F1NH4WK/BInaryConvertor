@@ -17,3 +17,7 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.bgGradient {
+    background: linear-gradient(106.9deg, #fefe33 11.95%, #8601af 107.21%);
+}

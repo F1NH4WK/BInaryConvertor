@@ -73,9 +73,12 @@ export default function Home() {
 					</div>
 				</section>
 
-				<div className = 'w-full flex align-center justify-center'>
-					<button className="border-4 p-[.3em] rounded-xl text-4xl font-bold uppercase my-[1em]">Convert</button>
+				<div className = 'w-full flex align-center justify-center bgGradient'>
+					<div className="border-4 rounded-xl text-4xl font-bold uppercase my-[1em] textGradient cursor-pointer">
+						Convert
+					</div>
 				</div>
+
 			</main>
 
 			<footer className = 'bg-gradient-to-b from-[#312E2E] to-purple flex flex-col align-center justify-center text-center p-[1.5em] gap-[1.5em]'>
@@ -92,7 +95,7 @@ export default function Home() {
 					<LinkedinLogo size={40} color="white" opacity={.8}/>
 					<GithubLogo size = {40} color="white" opacity={.8}/>
 				</div>
-			</footer>ce
+			</footer>
 		</>
 	);
 }
